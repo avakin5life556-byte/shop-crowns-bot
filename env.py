@@ -1,0 +1,10 @@
+import os
+
+BOT_TOKEN = os.getenv("8713841740:AAFsB1JNb9Bvd0qJ8GjiU66mFZKJBqceeKA")
+ADMIN_ID = int(os.getenv("1452361376"))
+
+ORDER_TIMEOUT_MINUTES = 20
+QUEUE_CHECK_INTERVAL = 60
+
+DATABASE_PATH = "shop_crowns.db"
+LOG_LEVEL = "INFO"
